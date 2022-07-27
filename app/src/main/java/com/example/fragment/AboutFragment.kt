@@ -28,7 +28,7 @@ class AboutFragment : Fragment() {
         }
 
         binding.btnBack.setOnClickListener(){
-            Navigation.findNavController(binding.root).popBackStack()
+            //Navigation.findNavController(binding.root).popBackStack()
         }
 
         return binding.root
