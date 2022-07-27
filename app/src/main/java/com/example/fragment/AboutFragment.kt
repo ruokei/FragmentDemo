@@ -27,6 +27,10 @@ class AboutFragment : Fragment() {
                 .navigate(R.id.action_aboutFragment_to_homeFragment)
         }
 
+        binding.btnBack.setOnClickListener(){
+            Navigation.findNavController(binding.root).popBackStack()
+        }
+
         return binding.root
     }
 
